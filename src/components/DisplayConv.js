@@ -58,7 +58,7 @@ const DisplayConv = ({convs,setConv,message,setMessage,username}) => {
                             }}>
                                         {convs.map((conv) => (
                                             <>
-                                            <Image avatar src = {`https://api.adorable.io/avatars/150/${conv.username}.png`} style = {{
+                                            <Image avatar src = {`https://ui-avatars.com/api/?name=${conv.username}`} style = {{
                                             
                                             display : "inline-block"
                                             }}/>
